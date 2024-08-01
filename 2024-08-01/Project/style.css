@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+}
+
+.baris-1{
+    background-color: yellow;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+.baris-2{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+.baris-3{
+    background-color: violet;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+.baris-4{
+    background-color: brown;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+.baris-5{
+    background-color: cornflowerblue;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+.baris-2-kolom-1{
+    width: 20%;
+    height: 30px;
+    background-color: aliceblue;
+}
+
+.baris-2-kolom-2{
+    width: 20%;
+    height: 30px;
+    background-color: aqua;
+}
+
+.baris-2-kolom-3{
+    width: 20%;
+    height: 30px;
+    background-color: blanchedalmond;
+}
+
+.baris-2-kolom-4{
+    width: 20%;
+    height: 30px;
+    background-color: beige;
+}
+
+.baris-2-kolom-5{
+    width: 20%;
+    height: 30px;
+    background-color: burlywood;
+}
+.wrapper{
+    padding: 50px;
+    margin-top: 50px;
+    background-color: grey;
+}
