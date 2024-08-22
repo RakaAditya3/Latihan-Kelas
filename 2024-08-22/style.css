@@ -1,0 +1,14 @@
+.header {
+    background-color: wheat;
+    height: 150px;
+}
+
+.content {
+    background-color: aquamarine;
+    height: 300px;
+}
+
+.footer {
+    background-color: blue;
+    height: 100px;
+}
