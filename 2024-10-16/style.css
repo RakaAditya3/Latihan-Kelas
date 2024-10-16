@@ -1,0 +1,150 @@
+.rka {
+    position: relative;
+    display: inline-block; /* Agar elemen anak bisa ditangani dengan baik */
+}
+
+.rka a {
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Transisi gerakan dan opacity */
+    opacity: 1; /* Teks terlihat */
+}
+
+.rka .new-text {
+    position: absolute;
+    left: 0; /* Posisi sama dengan teks asli */
+    top: 5px; /* Posisi sama dengan teks asli */
+    opacity: 0; /* Tidak terlihat secara default */
+    transform: translateX(10px); /* Geser sedikit ke kanan */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Transisi untuk opacity dan gerakan */
+}
+
+.rka:hover a {
+    transform: translateX(20px); /* Menggerakkan teks ke kanan */
+    opacity: 0; /* Membuat teks asli tidak terlihat */
+}
+
+.rka:hover .new-text {
+    opacity: 1; /* Menampilkan teks baru */
+    transform: translateX(0); /* Kembali ke posisi normal */
+}
+
+.nav-link {
+    color: #6c757d;
+    transition: color 0.3s; 
+    cursor: default; 
+}
+
+.nav-link:hover {
+    color: #F54E26; 
+}
+
+.text-light,
+.text-warning,
+.text-success,
+.craft {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    position: relative; 
+    cursor: default; 
+}
+
+.container-fluid {
+    position: relative;
+    display: inline-block;
+}
+
+.hover-image,
+.hover-image2,
+.hover-image3,
+.hover-image4,
+.hover-image5 {
+    opacity: 0; 
+    transform: translateY(10px); 
+    position: absolute;
+    transition: opacity 0.3s ease, transform 0.3s ease; 
+}
+
+.hover-image {
+    top: -25px; 
+    left: 940px;
+    width: 100px; 
+}
+
+.hover-image2 {
+    top: 25px; 
+    left: 1030px;
+    width: 100px; 
+}
+
+.hover-image3 {
+    top: 95px; 
+    left: 1050px;
+    width: 110px; 
+}
+
+.hover-image4 {
+    top: 110px; 
+    left: 920px;
+    width: 200px; 
+}
+.hover-image5 {
+    top: 1280px; 
+    left: 850px;
+    width: 130px; 
+}
+
+/* Mengubah opacity dan transform saat hover */
+.text-warning:hover + .hover-image,
+.text-success:hover + .hover-image2,
+.craft:hover + .hover-image3,
+.craft:hover + .hover-image4,
+.paper:hover + .hover-image5 {
+    opacity: 1; /* Menampilkan gambar saat hover */
+    transform: translateY(0); /* Mengembalikan gambar ke posisi normal */
+}
+
+/* Membuat gambar tetap terlihat saat kursor di atasnya */
+.hover-image:hover,
+.hover-image2:hover,
+.hover-image3:hover,
+.hover-image4:hover,
+.hover-image5:hover {
+    opacity: 1; /* Tetap terlihat saat hover */
+    transform: translateY(0); /* Tetap di posisi normal */
+    cursor: default; 
+}
+
+
+.container-fluid1 {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    background: #F54E26;
+    padding: 10px;
+}
+
+.slide {
+    display: inline-block;
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.text-decoration-none {
+    color: #FFC0CB;
+    transition: color 0.3s; 
+}
+
+.text-decoration-none:hover {
+    color: #F54E26;
+}
+
+.footer {
+    background-color: #F54E26;
+}
