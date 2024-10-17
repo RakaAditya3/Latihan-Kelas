@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    background-image: url(images/bg-masthead.jpg);
+    background-repeat: no-repeat;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.lingkaran {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ellips {
+    background-color: #FFFFFF;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.text-lingkaran {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.p {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+}
+
+.home4 {
+    background-image: url(images/portfolio-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 90%;
+}
+
+.gambar1 {
+    display: flex;
+    justify-content: center;
+}
+.gambar2 {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 40%;
+}
+
+.home7 {
+    background-image: url(images/map.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.ellips2 {
+    background-color: rgb(37, 106, 186);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    justify-content: center;
+}
