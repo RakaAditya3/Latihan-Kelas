@@ -1,0 +1,22 @@
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.detail-produk img {
+    width: 200px;
+}
+
+.produk {
+    display: flex;
+    gap: 25px;
+    justify-content: space-evenly;
+}
+
+.detail-produk {
+    margin-bottom: 30px;
+}
